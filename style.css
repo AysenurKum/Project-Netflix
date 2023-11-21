@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    position: relative;
+    background-image: url(assets/background_image.jpg);
+    height: 1100px;
+    width: 1500px;
+}
+
+.container2 {
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    width: 1500px;
+    height:  1000px;
+    left:calc(50% - 750px);
+    top: 100px;
+}
+
+.netflix {
+    position:relative;
+    font-family: fantasy;
+    color: white;
+    font-size: 60px;
+    display:flex;
+    justify-content:center;
+}
+
+.aciklama  {
+    position: relative;
+    font-family: "Sofia", sans-serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 750px;
+    padding: 30px;
+    left:calc(50% - 375px);
+}
+
+.send {
+    position: relative;
+    left:calc(50% - 5rem);
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    width: 10rem;
+    height: 3rem;
+}
+
+.send:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.send:active {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+.forminput {
+    height: 3rem;
+    width: 100%;
+}
+
+.formtexta {
+    height: 6rem;
+    width: 100%;
+}
