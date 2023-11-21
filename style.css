@@ -6,15 +6,15 @@
     position: relative;
     background-image: url(assets/background_image.jpg);
     height: 1100px;
-    width: 1500px;
+    width: 100%;
 }
 
 .container2 {
     position: relative;
     background-color: rgba(0,0,0,0.5);
-    width: 1500px;
-    height:  1000px;
-    left:calc(50% - 750px);
+    width: 1000px;
+    height:  90%;
+    left:calc(50% - 500px);
     top: 100px;
 }
 
